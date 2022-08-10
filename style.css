@@ -139,7 +139,7 @@ html{
     overflow: hidden;
 }
 #contents div{
-    width: 280px;
+    /* width: 280px; */
     
 }
 .logoSide p{

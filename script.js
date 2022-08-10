@@ -73,16 +73,16 @@ setInterval(() => {
 
 
 const sr = ScrollReveal({
-    distance: '60px',
+    distance: '50px',
     duration: 2000,
     delay: 150,
     reset: true
 })
 
 sr.reveal(`#textContent`, {origin: 'left'});
-sr.reveal(`#scImg`, {origin: 'right'});
+sr.reveal(`#scImg`, {origin: 'bottom'});
 sr.reveal(`#imgSC`, {origin: 'left'});
-sr.reveal(`#stoscText`, {origin: 'right'});
+sr.reveal(`#stoscText`, {origin: 'bottom'});
 sr.reveal(`#services`, {origin: 'bottom'});
 sr.reveal(`#video`, {origin: 'bottom'});
 sr.reveal(`#portfolio`, {origin: 'bottom'});
@@ -93,7 +93,7 @@ sr.reveal(`#testimonials`, {origin: 'bottom'});
 sr.reveal(`#clSCR`, {origin: 'bottom'});
 sr.reveal(`#SCRimgCL`, {origin: 'bottom'});
 sr.reveal(`#contacts`, {origin: 'bottom'});
-sr.reveal(`#footer`, {origin: 'right'});
+sr.reveal(`#footer`, {origin: 'bottom'});
 
 
 
